@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@400;800&display=swap');
+
+:root{
+    --font-Inter: 'Inter', sans-serif;
+    --font-Karla: 'Karla', sans-serif;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-body{
+    background-color: #1F2937;
+    /* background-color: whitesmoke; */
+    padding: 3.25rem !important;
+    /* padding: 7.188rem 3.25rem !important; */
+    /* padding-top: 3.35rem !important; */
+}
+
+.card-body .card-title{
+    font-family: var(--font-Karla);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.card-body .card-title span{
+    color: #4ADF86;
+}
+.card-body .card-text{
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.card-body .btn{
+    font-family: var(--font-Inter);
+    font-weight: 500;
+}
+.card-body hr{
+    border: 1px solid #2F3E53;
+}
+.card-body .p-2{
+    background-color: #273549;
+    width: 13.188rem;
+    height: 2.438rem;
+    font-family: var(--font-Inter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #55F991;
+}
+#flexSwitchCheckDefault {
+    width: 44px !important;
+    height: 24px !important;
+}
+
+input[type='range']{
+    width: 94%;
+}
+
+#label{
+    font-family: var(--font-Karla);
+    font-size: 1.1rem;
+}
