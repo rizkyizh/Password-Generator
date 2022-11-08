@@ -118,6 +118,7 @@ const toggleMode = document.getElementById('flexSwitchCheckDefault')
 const cardBody = document.querySelector('.card-body')//bg card
 const cardTxt = document.querySelector('.card-text')
 const titleH5 = document.querySelector('h5')//h5 title
+toggleMode.checked = true
 if(toggleMode.checked == false){
     cardBody.style.backgroundColor = "whitesmoke"
     labelRange.style.color = '#6B7280'
