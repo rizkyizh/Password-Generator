@@ -13,10 +13,7 @@ body {
 
 .card-body{
     background-color: #1F2937;
-    /* background-color: whitesmoke; */
     padding: 3.25rem !important;
-    /* padding: 7.188rem 3.25rem !important; */
-    /* padding-top: 3.35rem !important; */
 }
 
 .card-body .card-title{
@@ -61,4 +58,18 @@ input[type='range']{
 #label{
     font-family: var(--font-Karla);
     font-size: 1.1rem;
+}
+
+#copyright{
+    color: #CCC1FF;
+    text-align: center;
+    font-family: var(--font-Karla);
+}
+#copyright a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#copyright a:hover{
+    color: #6943FF;
 }
