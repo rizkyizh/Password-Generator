@@ -1,75 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@400;800&display=swap");
 
-:root{
-    --font-Inter: 'Inter', sans-serif;
-    --font-Karla: 'Karla', sans-serif;
+:root {
+  --font-Inter: "Inter", sans-serif;
+  --font-Karla: "Karla", sans-serif;
 }
 
 body {
-    display: grid;
-    align-items: center;
-    height: 100vh;
+  display: grid;
+  align-items: center;
+  height: 100vh;
 }
 
-.card-body{
-    background-color: #1F2937;
-    padding: 3.25rem !important;
+.card-body {
+  background-color: #1f2937;
+  padding: 3.25rem !important;
 }
 
-.card-body .card-title{
-    font-family: var(--font-Karla);
-    font-weight: 800;
-    font-size: 2.5rem;
+.card-body .card-title {
+  font-family: var(--font-Karla);
+  font-weight: 800;
+  font-size: 2.5rem;
 }
-.card-body .card-title span{
-    color: #4ADF86;
+.card-body .card-title span {
+  color: #4adf86;
 }
-.card-body .card-text{
-    font-family: var(--font-Inter);
-    font-weight: 400;
-    font-size: 1.25rem;
+.card-body .card-text {
+  font-family: var(--font-Inter);
+  font-weight: 400;
+  font-size: 1.25rem;
 }
-.card-body .btn{
-    font-family: var(--font-Inter);
-    font-weight: 500;
+.card-body .btn {
+  font-family: var(--font-Inter);
+  font-weight: 500;
 }
-.card-body hr{
-    border: 1px solid #2F3E53;
+.card-body hr {
+  border: 1px solid #2f3e53;
 }
-.card-body .p-2{
-    background-color: #273549;
-    width: 13.188rem;
-    height: 2.438rem;
-    font-family: var(--font-Inter);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #55F991;
+.card-body .p-2 {
+  background-color: #273549;
+  width: 14.188rem;
+  height: 2.438rem;
+  font-family: var(--font-Inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #55f991;
+  cursor: pointer;
 }
 #flexSwitchCheckDefault {
-    width: 44px !important;
-    height: 24px !important;
+  width: 44px !important;
+  height: 24px !important;
 }
 
-input[type='range']{
-    width: 94%;
+input[type="range"] {
+  width: 94%;
 }
 
-#label{
-    font-family: var(--font-Karla);
-    font-size: 1.1rem;
+#label {
+  font-family: var(--font-Karla);
+  font-size: 1.1rem;
 }
 
-#copyright{
-    color: #CCC1FF;
-    text-align: center;
-    font-family: var(--font-Karla);
+#copyright {
+  color: #ccc1ff;
+  text-align: center;
+  font-family: var(--font-Karla);
 }
-#copyright a{
-    text-decoration: none;
-    color: inherit;
+#copyright a {
+  text-decoration: none;
+  color: inherit;
 }
 
-#copyright a:hover{
-    color: #6943FF;
+#copyright a:hover {
+  color: #6943ff;
 }
